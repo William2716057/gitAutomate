@@ -20,3 +20,6 @@ It's useful for quickly setting up and syncing a local project with GitHub, GitL
 4. Configures the remote repository.
 5. Pushes to the current branch or creates main if none exists.
 
+### 🔧 Requirements
+- Git installed on your system.
+- Valid remote repository URL.
