@@ -9,8 +9,9 @@ It's useful for quickly setting up and syncing a local project with GitHub, GitL
 - Sets up a remote repository and pushes to the main or existing branch.
 
 ## 📖 Usage
-1. Run the script and add the remote repository URL
+- Run the script and add the remote repository URL
 ```
-./gitAutomate.sh https://github.com/YOUR_GITHUB_PROFILE_NAME/REPOSITORY_NAME
+./gitAutomate.sh https://github.com/your-username/your-repository.git
 ```
-2. 
+
+
