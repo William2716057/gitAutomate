@@ -14,6 +14,10 @@ else
     echo "Already initialized."
 fi
 
+if ! grep -qxF "gitAutomate.sh" .gitignore 2>/dev/null; then
+    echo "gitAutomate.sh" >> .gitignore
+fi
+
 # Add all changes
 git add .
 
@@ -30,8 +34,6 @@ fi
 
 # Push to the correct branch (master/main)
 CURRENT_BRANCH=$(git branch --show-current)
-#ignore gitAutomate.sh file
-echo "gitAutomateTest.sh" >> .gitignore
 
 if [ -z "$CURRENT_BRANCH" ]; then
     echo "No active branch detected. Creating and using 'main'."
