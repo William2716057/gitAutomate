@@ -13,5 +13,10 @@ It's useful for quickly setting up and syncing a local project with GitHub, GitL
 ```
 ./gitAutomate.sh https://github.com/your-username/your-repository.git
 ```
-
+### ⚙️ How It Works
+1. Checks if a .git directory exists. If not, it initializes a new Git repository.
+2. Ensures gitAutomate.sh is ignored by adding it to .gitignore.
+3. Adds all changes and commits them.
+4. Configures the remote repository.
+5. Pushes to the current branch or creates main if none exists.
 
