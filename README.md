@@ -7,3 +7,10 @@ It's useful for quickly setting up and syncing a local project with GitHub, GitL
 - Adds and commits all changes in the project directory.
 - Automatically ignores the script itself (gitAutomate.sh).
 - Sets up a remote repository and pushes to the main or existing branch.
+
+## 📖 Usage
+1. Run the script and add the remote repository URL
+```
+./gitAutomate.sh <remote-repository-url>
+```
+2. 
