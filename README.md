@@ -11,6 +11,6 @@ It's useful for quickly setting up and syncing a local project with GitHub, GitL
 ## 📖 Usage
 1. Run the script and add the remote repository URL
 ```
-./gitAutomate.sh <remote-repository-url>
+./gitAutomate.sh https://github.com/YOUR_GITHUB_PROFILE_NAME/REPOSITORY_NAME
 ```
 2. 
